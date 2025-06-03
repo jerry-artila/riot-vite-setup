@@ -1,0 +1,14 @@
+<my-tag>
+  <p class="text-3xl font-bold bg-blue-500 text-white">My Tag</p>
+  <p class={ props.color }>來自父組件的數據: { props.message }</p>
+  <p> 組件自帶的數據: { data.message } </p>
+
+  <script>
+    export default {
+      name: 'MyTag',
+      data: {
+        message: 'Hello World'
+      }
+    }
+  </script>
+</my-tag>

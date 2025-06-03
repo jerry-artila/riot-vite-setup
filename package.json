@@ -1,0 +1,20 @@
+{
+  "name": "riot-vite-setup",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "tailwindcss": "^4.1.8",
+    "riot": "^9.4.9",
+    "rollup-plugin-riot": "^9.0.2",
+    "vite": "^6.3.5"
+  }
+}
